@@ -1,0 +1,6 @@
+# Starter pipeline
+- task: UiPathAssets@2
+  inputs:
+    orchestratorConnection: 'Jaytech2021'
+    assetActionType: 'Deploy'
+    csvFile: 'Documents\to_deploy.csv'
